@@ -33,7 +33,7 @@ var Game = {
 
   enemies: [],
 
-  friction: 0.25,
+  friction: 1.0,
 
   controller: new Controller(),
 
