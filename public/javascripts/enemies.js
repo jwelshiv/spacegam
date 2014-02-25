@@ -14,9 +14,9 @@ Enemy.prototype.update = function(){
 }
 
 function updateEnemies(){
-  if(Util.random(0,5) == 1){
-    createEnemy()
-  }
+  // if(Util.random(0,5) == 1){
+  //   createEnemy()
+  // }
 
   // Move enemies
   for(i=0; i<Game.enemies.length; i++){
